@@ -1,0 +1,98 @@
+    
+/* Navbar */
+.navbar {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container-nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #0077ff;
+    font-weight: 700;
+    font-family: p*oppins, sans-serif;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0077ff;
+}
+
+
+.services {
+    width: 100%;
+    padding: 100px 0;
+    background: #f9fafe;
+}
+
+.services .container-content {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    color: #0077ff;
+    margin-bottom: 20px;
+}
+
+.services .service-intro {
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+    color: #555;
+    font-size: 16px;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.service-item {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.service-item p {
+    font-size: 15px;
+    color: #555;
+}
